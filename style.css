@@ -1,0 +1,105 @@
+body {
+    font-family: 'Libre Baskerville', serif;
+    background-color: #ECE3F0;
+    padding: 15px;
+}
+h1 {
+    font-size: 35px;
+    font-family: 'Rozha One' serif;
+    color: #6d597a;
+    margin: 20px;
+}
+h3 {
+    font-size: 25px;
+    font-family: 'Rozha One' serif;
+    color: #9d8189;
+}
+/*Beginning of the code for the profile picture on the home page.*/
+.portfolio-picture {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 80%;
+    animation-name: portfolio-picture;
+    animation-duration: 8s;
+}
+@keyframes portfolio-picture {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*Ending of the code for the profile picture on the home page.*/
+/*Beginning of the code for the picture and iframe on the About Me page.*/
+.minnesota {
+    width: 435px;
+    filter: grayscale(100%);
+}
+.minnesota:hover {
+    filter: grayscale(0%);
+    transition: 4s;
+}
+iframe {
+    width: 550px;
+    height: 390px;
+
+}
+/*Ending of the code for the picture and ifram on the About Me page.*/
+/*Beginning of the code for the Lane logo on the Lane Tech page.*/
+.logo {
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logo:hover {
+    width: 300px;
+}
+.spacing {
+    min-height: 300px;
+}
+/*Ending of the code for the Lane logo on the Lane Tech Page.*/
+/*Beginning of the code for the pictures on the Lane Tech Page.*/
+.lane-tech-images {
+    width: 400px;
+}
+/*Ending of the code for the pictures on the Lane Tech Page.*/
+/*Beginning of the code for the list titled my favorite classes on the Lane Tech Page.*/
+.hidden {
+    visibility: hidden;
+}
+li:hover .hidden{
+    visibility: visible
+}
+/*Ending of the code for the list titled my favorite classes on the Lane Tech Page.*/
+/*Beginning of the code for the table on the Lane Tech Page.*/
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #f8edeb;
+    margin: 7px 5px 7px 5px;
+    padding: 10px;
+}
+th{
+    background-color: #fec5bb;
+}
+/*Endidng of the code for the table on the Lane Tech Page.*/
+/*Beginning of code for the style for the Career Page*/
+h5 {
+    font-size: 18px;
+    font-family: 'Rozha One' serif;
+    color: #4a4e69;
+    margin: 15px;
+}
+/*Ending of the style for the Career Page*/
+/*Beginning of the code for the pictures on the Career Page.*/
+.career {
+    width: 300px;
+}
+.university {
+    width: 500px;
+}
+/*Ending of the code for the pictures on the Career Page.*/
